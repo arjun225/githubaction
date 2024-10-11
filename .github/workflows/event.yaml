@@ -1,5 +1,9 @@
 name: push
-on: test
+on: 
+  push:
+    branches:
+      - main
+      - test
 jobs: 
   show-info:
       runs-on: ubuntu-latest
