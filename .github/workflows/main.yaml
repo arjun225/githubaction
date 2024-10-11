@@ -6,7 +6,7 @@ jobs:
       runs-on: ubuntu-latest
       steps:
       - name: checkpout repo
-        uses: action/checkout@v4
+        uses: actions/checkout@v4
       - name: test
         run: | 
           echo "test the maniual jobs"
