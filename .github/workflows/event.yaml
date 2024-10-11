@@ -1,0 +1,10 @@
+name: push
+on: push
+jobs: 
+  show-info:
+      runs-on: ubuntu-latest
+      steps:
+      - name: info
+        run: |
+          echo "test this jonbs"
+  
