@@ -1,0 +1,13 @@
+name: Push Evets
+on: 
+  issues: 
+    types:
+      - opened
+jobs: 
+  show-info:
+      runs-on: ubuntu-latest
+      steps:
+      
+      - name: test
+        run: | 
+          echo "some one create issue job will trigger"
